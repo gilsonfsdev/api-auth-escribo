@@ -10,6 +10,9 @@
     "test": "vitest run --dir src/use-cases",
     "test:watch": "vitest --dir src/use-cases"
   },
+  "prisma": {
+    "schema": "./prisma/schema.prisma"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
